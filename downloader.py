@@ -49,7 +49,7 @@ def get_video(post_data):
             [0]["data"]["secure_media"]\
             ["reddit_video"]["fallback_url"]
     except (IndexError, KeyError):
-        return None
+        sys.exit("Couldn't get video URL")
     response = get_response(url)
     if response:
         return response.content
