@@ -1,6 +1,10 @@
 # Reddit Video Downloader
 Script to download videos from Reddit
 
+## Requirements
+- Python 3
+- FFmpeg
+
 ## Installation & Usage
 - Clone repo: `git clone https://github.com/matias-07/reddit-video-downloader.git`
 - Install dependencies: `cd reddit-video-downloader && pip install -r requirements.txt`
